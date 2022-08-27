@@ -1,0 +1,364 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+body{
+background-color: #222222;
+	font-size: 15px;
+	line-height: 20px;
+	width: auto;
+}
+.resume_wrapper{
+	display: flex;
+	width: 700px;
+	margin: 50px auto;
+	background: #fff;
+    height: auto ;
+}
+.resume_wrapper .resume_left{
+	width: 145%;
+	background: #555555;
+	position: relative;
+	
+}
+
+.resume_left .lineone{
+	background-color: #fff;
+	width: 100%;
+	height: 20px;
+	z-index: 2;
+	position: absolute;
+	top: 120px;
+}
+.abcd{
+	z-index: 3;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+}
+.resume_wrapper .resume_left .line{
+	width: 100%;
+	height: 20px;
+	z-index: 2;
+	position: absolute;
+	bottom: 20px;
+}
+.resume_wrapper .resume_left .resume_image{
+	width: 100%;
+	height: 150px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 150px;
+}
+.resume_wrapper .resume_left .resume_image img{
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin-top: 50px;
+	object-fit: cover;
+} 
+.resume_wrapper .resume_title{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+    margin-left: 30px;
+	margin-bottom: 20px;
+    margin-top: 20px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+.resume_wrapper .resume_left .resume_info{
+	color:#fff;
+    margin-left: 30px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	margin-top: 4px;
+}
+.resume_wrapper .resume_left .resume_info1{
+	color:#fff;
+    margin-left: 30px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 4px;
+	display: inline-block;
+}
+.resume_subinfo_1{
+	color:#fff;
+	position: relative;
+	padding-right: 20px;
+	word-break: break-all;
+}   
+.resume_subinfo3{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-right: 20px;
+	word-break: break-all;
+} 
+.resume_subinfo{
+	padding-left: 6px;
+	width: 140px;
+	padding-right: 20px;
+	word-break: break-all;
+} 
+.resume_subinfo_2{
+	width: 80px;
+	word-break: break-all;
+}
+.resume_subinfo_6{
+	width: 85px;
+	word-break: break-all;
+}
+.resume_subinfo5{
+	padding-left: 8px;
+	padding-right: 20px;
+	word-break: break-all;
+}
+.facontract {
+    font-size: 13px;
+    padding-right: 10px;
+} 
+.fa-brands{
+    font-size: 18px;
+    padding-right: 10px;
+	padding-top: 0;
+}  
+.fa-brands1{
+	background-color:#4267b2 ;
+	border-radius: 5px;
+	padding-right: 8px;
+}
+.fa-brands2{
+	background-color:#E34258;
+	border-radius: 5px;
+	padding-right: 3px;
+}
+.fa-brands3{
+	background-color:#55ACEE;
+	border-radius: 5px;
+	padding-right: 1px;
+}
+.fa-brands4{
+	background-color:#55ACEE;
+	border-radius: 5px;
+	padding-right: 3px;
+}
+.resume_wrapper .cv-block-title{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+    margin-left: 30px;
+	margin-bottom: 20px;
+    margin-top: 20px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	width: 100%;
+}
+.cv-text-block{
+ 
+    flex-wrap: wrap;
+	margin-right: 10px;
+	width: 100%;
+}
+.block-item-skill{
+	color:#fff;
+    margin-left: 30px;
+	margin-right: 25px;
+	margin-bottom: 2px;
+	margin-top: 4px;
+	font-size: 13px;
+}
+.cv-block-item{
+    display: flex;
+}
+.block-item-skill{
+    width: 100px;
+	word-break: break-all;
+}
+.fa-starr{
+	font-size: 10px;
+}
+.fa-starr1{
+	font-size: 10px;
+	color: #C0C0C0;
+}
+.block-item-icon{
+	margin-right: 10px;
+	color: #fff;
+}
+
+
+
+
+.cv-block-item-hobby{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-hobby{
+    width: 50%;
+}
+.item-hobby i{
+    margin-right: 3px;
+	margin-bottom: 15px;
+}
+/* .block-item-icon{
+    display: flex;
+} */
+.block-item-icon i {
+    margin: 0px ;
+}
+.block-item-hobby{
+    width: 80px;
+    word-wrap: break-word;
+}
+.fa-solid{
+	color: #fff;
+}
+.block-item-hobby{
+	color: #fff;
+	margin-left: 5px;
+}
+.cv-block-item-hobby{
+	padding-left: 30px;
+}
+
+/* .resume_Hobby_conten{
+	position: relative;
+}
+.resume_Hobby_conten li{
+	display: inline-block;
+	padding-bottom: 10px;
+}
+.resume_wrapper .resume_left.Hobby_left{
+	position: absolute;
+	padding-right: 10px;
+	word-break: break-all;
+}
+.resume_wrapper .resume_left.Hobby_right{
+	position: absolute;
+	right: 10px; 
+	word-break: break-all;
+}  */
+
+
+
+
+
+.resume_wrapper .resume_right{
+	width: 210%;
+	background: #fff;
+	position: relative;
+	padding: 80px 30px 30px 25px ;
+}
+.nameperson{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+	font-size: 30px;
+	padding-bottom: 20px;
+	font-weight:600 ;
+	letter-spacing: 4px;
+}
+.namework{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+	font-size: 23px;
+	letter-spacing: 6px;
+	font-weight:200 ;
+	padding-bottom: 50px;
+	color: #444444;
+}
+.resume_subinfo_right_1{
+	color: #004400;
+	font-size:17px;
+	font-weight:700 ;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.resume_subinfo_right_3{
+	font-weight:700 ;
+}
+.resume_subinfo_right_5{
+	padding-bottom: 10px;
+}
+.resume_subinfo_right_5 li{
+	display: inline-block;
+}
+.resume_subinfo_right_2{
+	padding-top: 10px;
+	font-size: 15px;
+}
+.resume_subinfo_right_4{
+	color: #555555;
+}
+
+/* @media screen and (max-width: 700px){
+	.resume_wrapper{
+		width: 95%;
+		margin: 10px auto;}
+	.resume_wrapper .resume_left .line{
+			display: none;
+		}
+		.nameperson{
+			display: inline;
+		}
+		.namework{
+			display: inline;
+			display: block;
+			margin-bottom: 20px;
+		}
+} */
+@media screen and (max-width: 697px) {
+	.resume_wrapper{
+		width: 94%;
+		margin: 10px auto;
+		flex-direction: column;
+	}
+	.resume_wrapper .resume_left .line{
+		display: none;
+	}
+	.resume_wrapper .resume_left,
+	.resume_wrapper .resume_right{
+		width: 100%;
+	}
+	.nameperson{
+		display: inline;
+	}
+	.namework{
+		display: inline;
+		display: block;
+		margin-bottom: 20px;
+	}
+	.resume_wrapper .resume_left .resume_image img{
+		text-align: center;
+	}
+	.cv-block-item-hobby{
+		display: inline-block;
+		
+	}
+}
+@media (max-width:700px){
+	.block-item-icon{
+		/* grid-template-columns: repeat(1,1ft); */
+		display: block;
+		/* margin-left: 30px; */
+	}
+}
+@media (max-width:570px){
+	.resume_Hobby_conten li {
+		grid-template-columns: repeat(1,1ft);
+		display: block;
+		margin-top: 0;
+	}
+	.cv-block-item{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.block-item-icon{
+		padding-left: 30px;
+	}
+}
